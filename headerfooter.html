@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Header and footer</title>
-    <link rel="stylesheet" href="/style/forhandf.css">
+    {%block style%}
+    <link rel="stylesheet" href="../style/forhandf.css">
+    {%endblock%}
 </head>
 <body>
     <header>
-
-    </header>    
-    {% %}
-    <footer>
         
+    </header>    
+    {%block main%}
+    {%endblock%}
+    <footer>
+
     </footer>
 </body>
 </html>
